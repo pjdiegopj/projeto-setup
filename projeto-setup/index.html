@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./projeto-setup/src/css/reset.css">
+    <link rel="stylesheet" href="./projeto-setup/src/css/estilos.css">
+    <link rel="stylesheet" href="./projeto-setup/src/css/reponsivo.css">
+    
+    <title>Peças Fundamentais - Para o Funcionamento de um Computador</title>
+</head>
+
+<body>
+    <main class="pecas">
+        <div class="peca">
+            <img class="imagem" src="./projeto-setup/src/imagens/item-placa-mae.png"
+            alt="peca Placa Mãe">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-peca">Placa-Mãe</h2>
+                <p class="descricao">É a base onde todos os componentes são conectados.
+Possui soquetes para CPU, RAM, placa de vídeo, SSD e mais.
+Conecta e distribui dados e energia entre os dispositivos.
+Define o tipo de processador e memória que o sistema suporta.
+Tem interfaces como USB, HDMI, SATA, entre outras.
+Modelos variam de acordo com tamanho: ATX, Micro-ATX, Mini-ITX.
+Inclui também chips de rede, som e conectividade.
+Uma boa placa-mãe garante estabilidade e expansão futura.</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img class="imagem" src="./projeto-setup/src/imagens/item-placa-de-video.png"
+                alt="peca Placa de Vídeo">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-peca">Placa de Vídeo</h2>
+                <p class="descricao">Responsável por processar imagens, vídeos e gráficos.
+Essencial para jogos, edição de vídeo e modelagem 3D.
+Pode ser integrada (na CPU) ou dedicada (placa separada).
+Modelos dedicados têm memória própria (VRAM).
+As mais potentes são fabricadas por NVIDIA e AMD.
+Oferecem suporte a ray tracing, IA e gráficos 4K ou 8K.
+Desempenho gráfico afeta diretamente a fluidez em jogos.
+Quanto melhor a placa, melhor a experiência visual.</p>
+            </div>
+        </div>
+
+        <div class="peca selecionado">
+            <img class="imagem" src="./projeto-setup/src/imagens/item-processador.png"
+            alt="peca Processador">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-peca">Processador</h2>
+                <p class="descricao">O processador é o cérebro do computador.
+Responsável por executar todas as instruções e cálculos.
+Ele interpreta comandos dos programas e do sistema operacional.
+Sua velocidade é medida em GHz (gigahertz).
+Modelos modernos têm múltiplos núcleos, como quad-core ou octa-core.
+Isso permite executar várias tarefas ao mesmo tempo.
+Quanto maior o desempenho, mais rápido o sistema responde.
+Intel e AMD são os principais fabricantes do mercado.</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img class="imagem" src="./projeto-setup/src/imagens/item-memoria-ram.png" alt="peca Nami">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-peca">Memória Ram</h2>
+                <p class="descricao">A RAM armazena dados temporariamente para acesso rápido.
+Quanto mais RAM, mais programas podem rodar ao mesmo tempo.
+DDR5 é a geração mais atual, com velocidades maiores.
+Melhora muito o desempenho em multitarefa e jogos.
+Trabalha em conjunto com o processador e sistema operacional.
+A RAM não guarda dados permanentemente (volátil).
+Ideal ter pelo menos 16 GB para uso moderno.
+A frequência da RAM é medida em MHz, afetando a velocidade.</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img class="imagem" src="./projeto-setup/src/imagens/item-fonte.png" alt="peca Fonte">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-peca">Fonte</h2>
+                <p class="descricao">A fonte converte energia da tomada em energia para os componentes.
+Distribui tensões adequadas para placa-mãe, GPU, drives, etc.
+É essencial para estabilidade e segurança do sistema.
+Fontes com certificação 80 Plus são mais eficientes.
+Modelos variam por potência: 500W, 650W, 750W e mais.
+Uma fonte de má qualidade pode queimar o computador.
+Fontes modulares permitem organizar melhor os cabos.
+Sempre escolha uma com potência adequada ao seu setup.</p>
+            </div>
+        </div>
+        <div class="peca">
+            <img class="imagem" src="./projeto-setup/src/imagens/item-ssd.png" alt="peca SSD">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-peca">SSD</h2>
+                <p class="descricao">O SSD é o armazenamento principal do computador.
+Armazena o sistema operacional, programas e arquivos.
+Muito mais rápido que HDs tradicionais (sem partes móveis).
+Modelos NVMe são os mais rápidos, conectados via PCIe.
+Tamanhos comuns: 256GB, 512GB, 1TB e 2TB.
+Tempo de inicialização e carregamento de programas é reduzido.
+SSDs consomem menos energia e são mais resistentes a impactos.
+Vida útil medida em TBW (Terabytes escritos).</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao" id="Placa Mãe">
+                <img src="./projeto-setup/src/imagens/peca-placa-mae.png" alt="Peça Placa Mãe">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./projeto-setup/src/imagens/peca-placa-de-video.png" alt="Peça Placa de Vídeo">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado">
+                <img src="./projeto-setup/src/imagens/peca-processador.png" alt="Peça Processador">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./projeto-setup/src/imagens/peca-memoria-ram.png" alt="Peça Nami">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./projeto-setup/src/imagens/peca-fonte.png" alt="Peça Fonte">
+            </button>
+        </li>
+        <li>
+            <button class="botao">
+                <img src="./projeto-setup/src/imagens/peca-ssd.png" alt="Peça SSD">
+            </button>
+        </li>
+    </ul>
+
+<script src="./projeto-setup/src/js/index.js"></script>
+
+</body>
+
+</html>
